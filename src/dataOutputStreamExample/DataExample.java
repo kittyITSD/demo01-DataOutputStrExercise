@@ -18,7 +18,7 @@ import java.io.*;
 public class DataExample
 {
 	//Constants
-	private static final int N = 10000;
+	private static final int N = 100000;
 	
 	//Attributes
 	private long 	unBufferedWriteTime,
