@@ -72,6 +72,7 @@ public class DataExampleComplete
 				int value = in.readInt();
 				System.out.println(i+" = "+value);
 			}
+			in.close();
 		}
 		catch (FileNotFoundException e)
 		{
@@ -134,6 +135,7 @@ public class DataExampleComplete
 				int value = in.readInt();
 				System.out.println(i+" = "+value);
 			}
+			in.close();
 		}
 		catch (FileNotFoundException e)
 		{
